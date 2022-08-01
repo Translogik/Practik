@@ -22,18 +22,20 @@ color: brown;
 }
 .abs{
     position: absolute;
-    background-color: black;
+    background: black;
     width: 100px;
     height: 100px;
     right: 20px;
     top: 20px;
 }
 .back{
-    position: absolute;
-    background-image: ;
-    //background: rgba(0, 0, 0, 0.1);
-    height: 100px;
+  background: url(image/inv.jpg);
+  background-size: cover;
+
 }
-main{
-    position: relative;
+.back::before{
+    
+}
+.front{
+
 }
