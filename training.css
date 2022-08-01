@@ -1,0 +1,39 @@
+textarea{
+    display: block;
+    font-family: inherit;
+    max-width: 100%;
+    min-width: 50%;
+    width: 75%;
+}
+div:nth-child(n+4){
+coslor: red;
+}
+.psi::before{
+content: "start";
+}
+div.psi::after{
+content: "end";
+}
+div span.one{
+color: blue;
+}
+span.one{
+color: brown;
+}
+.abs{
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    right: 20px;
+    top: 20px;
+}
+.back{
+    position: absolute;
+    background-image: ;
+    //background: rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+main{
+    position: relative;
+}
