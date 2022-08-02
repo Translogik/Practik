@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background: purple;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex{
+    flex:1 1 100px;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 150px;
+    height: 100px;
+}
+.child1{
+    background: red;
+    height: 150px;
+}
+.child2{
+    background: green;
+}
+.child3{
+    background: yellow;
+    height: 200px;
+}
+.child4{
+    background: black;
+    height: 175px;
+}
+
+.end{
+    flex: 1 1 auto;
+    background: yellow;
+    min-width: 100px;
+    max-width: 150px;
+    min-height: 100px;
+}
+.flex, .end{
+    background: brown;
+}

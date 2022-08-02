@@ -5,6 +5,11 @@ textarea{
     min-width: 50%;
     width: 75%;
 }
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 div:nth-child(n+4){
 coslor: red;
 }
@@ -29,13 +34,30 @@ color: brown;
     top: 20px;
 }
 .back{
-  background: url(image/inv.jpg);
+  background: url(image/inv.jpg) no-repeat;
   background-size: cover;
+  min-height: 200px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .back::before{
-    
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+/* Нулевые значения растянули на 100% */
+    z-index: 1;
 }
 .front{
-
+  position: relative;
+  z-index: 2;
 }
