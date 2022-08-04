@@ -39,3 +39,20 @@
 .flex, .end{
     background: brown;
 }
+.hidden-abs{
+    position: absolute;
+    visibility: hidden;
+}
+form{
+    background: green;
+}
+.poisk{
+    display: flex;
+    align-items: center;
+}
+li{
+    background: yellow;
+}
+.spisok-gorizont li{
+    display: inline-block;
+}
