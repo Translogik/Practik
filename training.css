@@ -11,7 +11,7 @@ body{
   margin: 0;
 }
 div:nth-child(n+4){
-coslor: red;
+color: red;
 }
 .psi::before{
 content: "start";

@@ -39,3 +39,9 @@
 .flex, .end{
     background: brown;
 }
+.cut{
+    background: url(image/inv.jpg);
+    width: 100px;
+    height: 100px;
+    background-position: 250px 10px;
+}
