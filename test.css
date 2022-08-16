@@ -45,3 +45,8 @@
     height: 100px;
     background-position: 250px 10px;
 }
+.posit{
+    position: static;
+    object-fit: fill;
+    object-position: top left;
+}
