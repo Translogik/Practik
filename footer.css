@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'fontico';
+    src: url('font/fontico.woff2') format('woff2'),
+    url('font/fontico.woff') format('woff'),
+    url('font/fontico.ttf') format('truetype'),
+    url('font/fontico.svg;') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
 *{
     margin: 0;
 }
@@ -5,15 +15,27 @@ html{
     height: 100%;
 }
 body{
+    font-family: 'fontico';
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 main{
     flex-grow: 1;
-    flex-shrink: ;
 }
 footer{
     padding: 20px;
     background: grey;
+}
+.twitter::before{
+    content: "\f303";
+    color: aqua;
+}
+.skype:before{
+    content: '\f30b';
+    color: blue;
+}
+.yandex::before{
+    content: '\f306';
+    color: red;
 }
