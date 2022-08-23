@@ -56,3 +56,14 @@ li{
 .spisok-gorizont li{
     display: inline-block;
 }
+.cut{
+    background: url(image/inv.jpg);
+    width: 100px;
+    height: 100px;
+    background-position: 250px 10px;
+}
+.posit{
+    position: static;
+    object-fit: fill;
+    object-position: top left;
+}

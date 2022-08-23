@@ -11,7 +11,7 @@ body{
   margin: 0;
 }
 div:nth-child(n+4){
-coslor: red;
+color: red;
 }
 .psi::before{
 content: "start";
@@ -60,4 +60,19 @@ color: brown;
 .front{
   position: relative;
   z-index: 2;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contaner-tabs{
+  display: flex;
+}
+.contaner-tabs input{
+  /*display: none;*/
+}
+.contaner-boxs{
+  display: none;
+}
+.alltabs:checked + .toggles + .content-boxs{
+  display: block;
 }
