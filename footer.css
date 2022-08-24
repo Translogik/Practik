@@ -11,17 +11,22 @@
 *{
     margin: 0;
 }
+:root{
+	--height-header: 0px; /*Без указания пикселей формула не работала*/
+	--height-footer: 240px;
+}
 html{
     height: 100%;
 }
 body{
     font-family: 'fontico';
-    height: 100%;
+	/*height:100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;*/
 }
 main{
-    flex-grow: 1;
+    /*flex: 1;*/
+	min-height: calc(100vh - var(--height-footer) - var(--height-header)); /*Но лучше не делать так футер*/
 }
 footer{
     padding: 20px;
