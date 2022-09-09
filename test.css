@@ -46,3 +46,16 @@
     object-fit: fill;
     object-position: top left;
 }
+.external{
+    position: relative;
+}
+.interior{
+    position: absolute;
+    border: 5px solid black;
+}
+.imgblock img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding: 10px;
+}

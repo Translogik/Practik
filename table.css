@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+#sudoku { border-collapse: collapse; border: solid thick; }
+#sudoku colgroup, table#sudoku tbody { border: solid medium; }
+#sudoku td { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding: 0; }
+   table{
+    margin-bottom: 50px;
+   }
