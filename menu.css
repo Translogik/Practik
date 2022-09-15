@@ -50,3 +50,18 @@ label{
 /*.switch__input:checked + .switch__label .switch__toggle{
     right: 0;
 }*/
+input[type]{
+    background: #000;
+}
+input.lol{
+    background: yellow;
+}
+input[type="text"]{
+    background: red;
+}
+input{
+    padding: 20px;
+}
+.sd{
+    width: 320px;
+}
